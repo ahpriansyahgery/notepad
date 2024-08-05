@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+.header{
+  background-color: #03346E;
+  text-align: center;
+  padding: 8px;
+}
+.header h1{
+  color: white;
+  font-family: "Gupter", serif;
+}
+.addNew{
+  background-color:#6EACDA;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.addNew label{
+  font-size: 1em;
+  font-family: "Gupter", serif;
+  color: #021526;
+}
+.addNew select{
+  width: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.addNew input{
+  border: none;
+  text-align: center;
+  padding: 6px;
+  border-radius: 20px;
+}
+
+.addNew button{
+  width: 120px;
+  padding: 6px;
+  border: none;
+  border-radius: 20px;
+  background-color: #03346E;
+  color: #E2E2B6;
+}
+
+
+.list-content{
+  background-color:#021526;
+  color: #E2E2B6;
+  height: 70vh;
+  padding-top:20px ;
+}
+.list-content li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+.list-content span{
+  font-family: "Gupter", serif;
+}
+.list-content button{
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem;
+  color: red;
+}
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  background-color: #6EACDA;
+  flex-wrap: wrap;
+}
+.action button{
+  border: none;
+  width: 140px;
+  background-color: #03346E;
+  color: #E2E2B6;
+  border-radius: 20px;
+  padding: 4px;
+}
+.action select{
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  color: #E2E2B6;
+  background-color: #03346E;
+}
+.footer{
+  background-color: #03346E;
+  color: #E2E2B6;
+  text-align: center;
+ padding-block: 2px;
+
+}
+.footer p{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
